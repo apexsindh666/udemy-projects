@@ -1,0 +1,72 @@
+# 🐢 Turtle Race Game
+
+A fun and beginner-friendly Turtle Graphics project made using Python's built-in **turtle** module.
+Multiple turtles race across the screen, and the player predicts which turtle will win!
+
+---
+
+## 🎮 Features
+
+* Colorful turtles with different speeds
+* Randomized movement
+* User betting/prediction
+* Simple and fun gameplay
+* Beginner-friendly code using the turtle module
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python 3.x**
+* **turtle** (built-in module)
+
+---
+
+## ▶️ How to Run the Game
+
+1. Make sure you have Python installed.
+2. Run the script:
+
+   ```
+   python main.py
+   ```
+
+A window will open showing the race track and turtles.
+
+---
+
+## 🎯 Gameplay Instructions
+
+1. When the game starts, it asks you to **enter your bet**:
+
+   * Example: `red`, `blue`, `green`, etc.
+2. The turtles start racing automatically.
+3. The game announces the **winning turtle**.
+4. You win if your predicted color matches the winner.
+
+---
+
+## 📂 Project Structure
+
+```
+turtle-race/
+│── main.py
+│── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Add a finish animation
+* Add background images
+* Add sound effects
+* Add difficulty modes
+* Add multiple rounds
+
+---
+
+## 🙌 Author
+
+Vedayon
+(Feel free to star ⭐ the repo if you like the project!)
