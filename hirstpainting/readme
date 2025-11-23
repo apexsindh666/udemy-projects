@@ -1,0 +1,75 @@
+# 🎨 Hirst Painting – Turtle Dot Art
+
+A Python Turtle Graphics project inspired by artist **Damien Hirst’s dot paintings**.
+This program generates a grid of colorful dots using Python’s `turtle` module.
+
+---
+
+## 🖌️ Features
+
+* Generates a grid of random colorful dots
+* Uses Python’s built-in **turtle** module
+* Clean, aesthetic dot-painting style
+* Beginner-friendly and fun to customize
+* Great for learning loops and graphics programming
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python 3.x**
+* **turtle** (built-in module)
+* **colorgram.py** (optional, for extracting colors from images)
+
+---
+
+## ▶️ How to Run
+
+1. Install optional dependency for color extraction (if using):
+
+   ```
+   pip install colorgram.py
+   ```
+2. Run the program:
+
+   ```
+   python main.py
+   ```
+3. A turtle window will open and create the dot painting automatically.
+
+---
+
+## 🎯 How It Works
+
+* Extracts colors from an image **or** uses a predefined color list.
+* Draws rows of evenly spaced circles.
+* Moves the turtle row-by-row to create a full grid.
+
+---
+
+## 📂 Project Structure
+
+```
+hirst-painting/
+│── main.py
+│── colors.py  (if used)
+│── README.md
+│── image.jpg  (optional for color extraction)
+```
+
+---
+
+## 🚀 Customization Ideas
+
+* Change dot size
+* Change grid size
+* Add gradient effects
+* Animate the drawing
+* Use color extraction from any artwork
+
+---
+
+## 🙌 Author
+
+Vedayon
+(Star ⭐ the repo if you enjoy the artwork!)
