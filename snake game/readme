@@ -1,0 +1,84 @@
+# 🐍 Snake Game
+
+A classic Snake Game built using Python and Pygame.
+The objective is simple: control the snake, eat food, grow longer, and avoid hitting the walls or yourself!
+
+---
+
+## 🎮 Features
+
+* Smooth snake movement
+* Score tracking
+* Increasing difficulty as the snake grows
+* Game Over screen
+* Clean and readable Python code structure
+* Easy to modify and expand
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python 3.x**
+* **Pygame** library
+
+---
+
+## ▶️ How to Run the Game
+
+1. Install dependencies:
+
+   ```
+   pip install pygame
+   ```
+2. Run the game:
+
+   ```
+   python main.py
+   ```
+
+Make sure all asset files (if any) are in the same directory as `main.py`.
+
+---
+
+## 🎯 Gameplay Controls
+
+| Key            | Action     |
+| -------------- | ---------- |
+| ⬆️ Up Arrow    | Move Up    |
+| ⬇️ Down Arrow  | Move Down  |
+| ⬅️ Left Arrow  | Move Left  |
+| ➡️ Right Arrow | Move Right |
+
+---
+
+## 📂 Project Structure
+
+```
+snake-game/
+│── main.py
+│── assets/   (optional)
+│── README.md
+```
+
+---
+
+## 🚀 Future Improvements (Optional Ideas)
+
+* Add sound effects
+* Add themes or skins
+* Add a leaderboard
+* Add multiple difficulty levels
+* Add pause/resume feature
+
+---
+
+## 📜 License
+
+This project is open-source. You may modify and use it freely.
+
+---
+
+## 🙌 Author
+
+Vedayon
+(Feel free to star ⭐ the repo if you found the project useful!)
