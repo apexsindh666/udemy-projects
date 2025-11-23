@@ -1,0 +1,74 @@
+# ✏️ Etch-a-Sketch – Turtle Drawing Game
+
+A fun Python project using the **turtle** module where you can draw on the screen using your keyboard — just like an Etch-a-Sketch toy!
+Move the turtle around, draw lines, clear the screen, and enjoy creative freedom.
+
+---
+
+## 🎮 Features
+
+* Keyboard-controlled drawing
+* Move the turtle up, down, left, and right
+* Clear the screen instantly
+* Simple and interactive drawing experience
+* Beginner-friendly code using turtle graphics
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python 3.x**
+* **turtle** (built-in library)
+
+---
+
+## ▶️ How to Run the Game
+
+1. Make sure Python is installed.
+2. Run the script:
+
+   ```
+   python main.py
+   ```
+3. A Turtle Graphics window will open and you can start drawing.
+
+---
+
+## 🎯 Controls
+
+| Key   | Action       |
+| ----- | ------------ |
+| **W** | Move Up      |
+| **S** | Move Down    |
+| **A** | Move Left    |
+| **D** | Move Right   |
+| **C** | Clear Screen |
+| **Q** | Exit Program |
+
+*(Keys may differ if you changed them — update the table as needed.)*
+
+---
+
+## 📂 Project Structure
+
+```
+etch-a-sketch/
+│── main.py
+│── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Add color selection
+* Add pen thickness control
+* Add shapes or stamps
+* Add save-as-image option
+
+---
+
+## 🙌 Author
+
+Vedayon
+(If you like the project, consider giving it a ⭐!)
