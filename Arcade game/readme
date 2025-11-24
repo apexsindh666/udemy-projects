@@ -1,0 +1,73 @@
+# 🏓 Pong Game
+
+A classic **Pong Game** built using Python’s `turtle` module.
+This project helps you understand game loops, collision mechanics, paddle control, and basic object-oriented game design.
+
+---
+
+## 🎮 Features
+
+* Two paddles with smooth movement
+* Bouncing ball with realistic physics
+* Scoreboard that tracks points
+* Collision detection with walls and paddles
+* Simple, clean, and modular code structure
+
+---
+
+## 🕹️ Controls
+
+### **Left Paddle**
+
+* **W** → Move Up
+* **S** → Move Down
+
+### **Right Paddle**
+
+* **Up Arrow** → Move Up
+* **Down Arrow** → Move Down
+
+---
+
+## 📂 Project Structure
+
+```
+pong-game/
+│
+├── main.py         # Main game loop
+├── paddle.py       # Paddle class
+├── ball.py         # Ball movement logic
+├── scoreboard.py   # Scoreboard display
+└── README.md
+```
+
+---
+
+## 🧠 How the Game Works
+
+1. Ball moves continuously across the screen.
+2. Paddles move vertically based on keyboard input.
+3. If the ball hits a paddle → it bounces back.
+4. If the ball misses a paddle → opposite player scores.
+5. Scoreboard updates instantly.
+
+---
+
+## 🎯 Objective
+
+Defend your side of the screen and score points on your opponent.
+The game continues until you decide to stop playing.
+
+---
+
+## 📌 Requirements
+
+* Python 3.x
+* `turtle` module (included with Python)
+
+---
+
+## 🏆 Author
+
+Made by **Vedayon**
+Created as part of learning Python, OOP, and basic game development.
