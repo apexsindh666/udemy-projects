@@ -1,0 +1,64 @@
+🗺️ US States Guessing Game
+
+
+
+An interactive US States Guessing Game built using Python Turtle Graphics and Pandas.
+Players try to guess all 50 US states, and correct guesses are displayed on the map in real time.
+🚀 Demo
+🎯 Type a US state name
+📍 See it appear on the map
+❌ Type Exit anytime to end the game
+📄 Automatically generates a list of missing states
+📂 Project Structure
+US-States-Game/
+│
+├── main.py                  # Main game logic
+├── 50_states.csv            # State names with x & y coordinates
+├── blank_states_img.gif     # Blank US map image
+├── missing_state.csv        # Generated after exiting the game
+├── .gitignore               # Git ignored files
+└── README.md                # Project documentation
+🛠️ Tech Stack
+Python 3
+Turtle Graphics
+Pandas
+📦 Installation
+Clone the repository:
+git clone https://github.com/your-username/US-States-Game.git
+Navigate into the project directory:
+cd US-States-Game
+Install dependencies:
+pip install pandas
+turtle comes pre-installed with Python.
+▶️ How to Run
+python main.py
+Make sure all project files are in the same directory.
+🎮 Gameplay Instructions
+Enter the name of a US state in the input box.
+Correct guesses appear on the map.
+The score updates dynamically.
+Type Exit to quit the game.
+When exiting, a file called missing_state.csv is created with all unguessed states.
+📄 CSV Output Example
+Alaska
+Hawaii
+Nevada
+🧠 Concepts Demonstrated
+GUI programming using Turtle
+Reading and writing CSV files
+Data manipulation with Pandas
+Event-driven programming
+Python lists and conditionals
+🌱 Future Enhancements
+Add a countdown timer
+Display final score screen
+Highlight states with colors
+Add hints system
+Save high scores
+🤝 Contributing
+Pull requests are welcome.
+For major changes, please open an issue first to discuss what you would like to change.
+📜 License
+This project is open-source and available under the MIT License.
+👨‍💻 Author
+Developed as a learning project to strengthen Python fundamentals, data handling, and GUI programming.
