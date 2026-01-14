@@ -1,0 +1,78 @@
+🅰️ NATO Phonetic Alphabet Project
+
+📌 Overview
+The NATO Phonetic Alphabet Project is a simple program that converts letters of the English alphabet into their corresponding NATO phonetic code words (e.g., A → Alpha, B → Bravo, C → Charlie).
+This project helps beginners understand:
+Dictionary usage
+String manipulation
+User input handling
+Basic data processing logic
+
+
+🎯 Features
+Converts any word or sentence into NATO phonetic words
+Ignores spaces and handles lowercase/uppercase input
+Uses a dictionary for fast lookups
+Beginner-friendly and easy to extend
+🧠 Example
+Input
+HELLO
+Output
+Hotel
+Echo
+Lima
+Lima
+Oscar
+
+
+🛠️ Technologies Used
+Programming Language: Python
+Concepts:
+Dictionaries
+Loops / Comprehensions
+String operations
+
+
+📂 Project Structure
+NATO-Phonetic-Alphabet/
+│
+├── main.py
+├── nato_phonetic_alphabet.csv
+└── README.md
+
+
+▶️ How It Works
+The NATO phonetic alphabet is stored in a dictionary
+The user enters a word or sentence
+Each letter is matched with its NATO code word
+The result is displayed line by line
+
+
+🚀 How to Run
+Clone this repository
+git clone https://github.com/your-username/NATO-Phonetic-Alphabet.git
+Navigate to the project folder
+cd NATO-Phonetic-Alphabet
+Run the program
+python main.py
+
+
+📚 Learning Outcomes
+Improved understanding of dictionaries
+Practice with string traversal
+Hands-on experience with real-world standards (NATO alphabet)
+
+
+🔮 Future Improvements
+Add support for numbers and symbols
+GUI version using Tkinter
+Audio pronunciation of phonetic words
+
+
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork the repository and submit a pull request.  
+
+
+📜 License
+This project is open-source and available under the MIT License.
