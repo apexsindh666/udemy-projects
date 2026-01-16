@@ -1,0 +1,27 @@
+Miles to Kilometers Converter 🚗
+A sleek, functional desktop GUI application built with Python and Tkinter. This project was created as part of my journey to master Python and GUI development.
+
+🌟 Key Features
+Interactive UI: Built using a clean grid layout for an intuitive experience.
+
+Efficient Logic: Performs floating-point conversions instantly.
+
+Safety First: (Optional addition) Handles non-numeric inputs gracefully.
+
+🛠 Tech Stack
+Language: Python 3.10+
+
+Framework: Tkinter
+
+Development Environment: VS Code / PyCharm
+
+📐 The Logic
+The app converts measurements based on the international standard: 1 Mile = 1.60934 Kilometers.
+
+🚀 How to Run
+Ensure you have Python installed.
+
+Run the main.py (or your filename) script:
+
+Bash
+python main.py
