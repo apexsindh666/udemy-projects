@@ -1,0 +1,47 @@
+Pomodoro Timer Application 🍅
+A productivity-focused desktop application built with Python and Tkinter that implements the Pomodoro Technique. This tool helps users break their work into intervals (typically 25 minutes) separated by short breaks, optimizing focus and preventing burnout.
+
+🚀 Features
+Automated Intervals: Switches automatically between Work, Short Break, and Long Break sessions.
+
+Dynamic UI: The interface changes colors (Green, Pink, Red) and updates the title based on the current session state.
+
+Progress Tracking: Automatically adds a checkmark (✔) for every completed work session to visualize productivity.
+
+Precision Timing: Uses the window.after() event loop mechanism for accurate second-by-second countdowns.
+
+Clean Design: Implements a canvas-based UI with customized fonts and high-contrast colors for readability.
+
+🛠️ Tech Stack
+Language: Python 3.x
+
+GUI Framework: Tkinter
+
+Mathematics: Python math module for time unit conversion.
+
+📖 The Logic (State Machine)
+The application tracks progress using a reps global variable to determine the current session:
+
+Work (Reps 1, 3, 5, 7): 25-minute timer.
+
+Short Break (Reps 2, 4, 6): 5-minute timer.
+
+Long Break (Rep 8): 20-minute timer.
+
+💻 Installation & Usage
+Clone the repository:
+
+Bash
+git clone https://github.com/apexsindh666/udemy-projects.git
+Navigate to the Pomodoro folder and ensure tomato.png is in the directory.
+
+Run the application:
+
+Bash
+python main.py
+📈 Future Improvements
+Add sound notifications for session transitions.
+
+Allow users to customize WORK_MIN and BREAK_MIN through the UI.
+
+Integrate a "Pause" button to stop the countdown without resetting.
