@@ -1,0 +1,47 @@
+Password Manager (PyPass) 🔐
+A secure and efficient desktop application built with Python and Tkinter to generate, manage, and store account credentials. This project emphasizes clean UI design and robust data persistence using local file handling.
+
+🚀 Key Features
+Password Generation: Automatically creates high-strength, randomized passwords using a mix of letters, numbers, and symbols.
+
+Automated Clipboard Integration: Utilizes the pyperclip module to automatically copy generated passwords to the clipboard for instant use.
+
+Data Persistence: Saves credentials (Website, Email/Username, and Password) into a structured data.txt file for future reference.
+
+Validation Logic: Includes error handling to prevent empty entries using Tkinter's messagebox.
+
+User Confirmation: Provides a secondary confirmation dialog before committing data to storage to ensure accuracy.
+
+🛠️ Tech Stack
+Language: Python 3.x
+
+GUI Framework: Tkinter
+
+Automation: pyperclip (Cross-platform clipboard management)
+
+Storage: Standard File I/O (Append Mode)
+
+📖 System Logic & Architecture
+The application follows a simple Event-Driven architecture:
+
+Input: User enters website and username details.
+
+Generation: A randomized list of characters is shuffled and joined to create a secure string.
+
+Validation: Checks if fields are empty before saving.
+
+Storage: Data is written to a flat-file database (data.txt) using a pipe-delimited format for easy parsing.
+
+💻 Installation & Usage
+Clone the repository:
+
+Bash
+git clone https://github.com/apexsindh666/password-manager.git
+Install dependencies:
+
+Bash
+pip install pyperclip
+Run the application: Ensure logo.png is in the same directory and execute:
+
+Bash
+python main.py
