@@ -1,0 +1,55 @@
+Flashy: A Data-Driven Flashcard App
+A Python-based learning tool for mastering French vocabulary using spaced-repetition logic.
+
+### Project Overview
+Flashy is a GUI-based application designed to help users learn new languages. It utilizes Pandas for data persistence and Tkinter for a smooth, interactive user interface. The app features a self-correcting dataset that tracks user progress by removing known words from the study queue.
+
+### Key Features
+Automated Card Flipping: Integrated asynchronous timing to flip cards from French to English after a 3-second delay.
+
+Progress Persistence: Automatically generates a words_to_learn.csv to ensure users pick up exactly where they left off.
+
+Robust Error Handling: Implemented try-except-else blocks to handle missing datasets and ensure zero-crash execution.
+
+Dynamic UI: Real-time canvas updates with specific layering for images and text assets.
+
+### Technical Logic & Architecture
+Data Management (Pandas)
+
+The app treats the CSV as a database. Using the to_dict(orient="records") method, the data is transformed into a list of dictionaries for O(1) access speed during random selection.
+
+State Control (Tkinter after)
+
+To prevent logic overlaps (Race Conditions), the app cancels the previous timer every time a new card is generated:
+
+Python
+window.after_cancel(flip_timer)
+Execution Flow
+
+Check for existing progress: If no progress file is found, it fallbacks to the master French dataset.
+
+Display Card: A random word is chosen and rendered on the "Front" canvas.
+
+Start Timer: A 3000ms countdown begins.
+
+User Input: * Checkmark: The word is removed from the list and the CSV is updated.
+
+Cross: The word stays in the list for future review.
+
+Flip: If no action is taken, the card flips to reveal the English translation.
+
+### Technologies Used
+Language: Python 3.x
+
+Library: Tkinter (GUI)
+
+Data Analysis: Pandas (Data Transformation)
+
+File I/O: CSV management with to_csv and read_csv
+
+### How to Run
+Ensure you have Python installed.
+
+Install requirements: pip install pandas.
+
+Run the application: python main.py.
